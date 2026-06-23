@@ -1,0 +1,20 @@
+model:
+  embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  similarity_threshold: 0.58
+  top_k_attack_matches: 3
+
+rag:
+  chunk_size: 500
+  chunk_overlap: 80
+  top_k_documents: 3
+
+risk:
+  min_attack_risk: 0.50
+  critical_rule_risk: 0.90
+  heuristic_risk: 0.72
+
+paths:
+  attack_vault: "data/attack_vault.csv"
+  test_cases: "data/test_cases.csv"
+  knowledge_base: "data/knowledge_base"
+  outputs_dir: "outputs"

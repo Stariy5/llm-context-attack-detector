@@ -1,0 +1,10 @@
+pandas
+numpy
+pyyaml
+scikit-learn
+sentence-transformers
+faiss-cpu
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters

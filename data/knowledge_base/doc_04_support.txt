@@ -1,0 +1,2 @@
+Document: support ticket process.
+To create a support ticket, choose the issue category, describe the problem, attach screenshots if necessary, and submit the request. The support team will respond according to priority.

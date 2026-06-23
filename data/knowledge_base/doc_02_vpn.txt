@@ -1,0 +1,2 @@
+Document: VPN setup.
+Install the corporate VPN client, enter the server address vpn.example.local, sign in with multi-factor authentication, and verify that internal resources are available. Do not share credentials with other users.
